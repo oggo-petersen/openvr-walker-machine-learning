@@ -1,0 +1,8 @@
+{
+	"alwaysActivate": true,
+	"name" : "esp32",
+	"directory" : "",
+	"resourceOnly" : false,
+	"prefersUpperDeviceIndices" :  true,
+	"hmd_presence" : []
+}

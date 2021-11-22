@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e9f07c0e-b5a2-4119-8473-bd3783ce73a0": {
+      "ProjectGuid": "e9f07c0e-b5a2-4119-8473-bd3783ce73a0",
+      "DisplayName": "OpenVrDriverExample",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
