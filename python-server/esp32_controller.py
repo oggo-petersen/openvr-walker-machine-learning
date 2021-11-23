@@ -1,4 +1,3 @@
-from utils.csv_handler import CSVHandler
 from utils.trainer import Trainer
 from utils.keypress import send_current_state
 from server import SocketServer

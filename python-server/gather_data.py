@@ -6,7 +6,7 @@ from utils.csv_handler import CSVHandler
 from utils.consts import IDLE, MOVING
 
 # For gathering data - set current state.
-current_state = IDLE
+current_state = MOVING
 
 # Ensure gathered_data folder exists.
 if not os.path.exists('gathered_data'):

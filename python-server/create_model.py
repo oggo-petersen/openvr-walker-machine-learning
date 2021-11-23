@@ -1,4 +1,3 @@
-import csv
 from utils.csv_handler import CSVHandler
 from utils.trainer import Trainer
 

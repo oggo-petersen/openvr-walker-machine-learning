@@ -3,6 +3,7 @@ import os
 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.metrics import accuracy_score
 import joblib
 
 
@@ -32,6 +33,9 @@ class Trainer:
 
         self.model = ExtraTreesClassifier()
         self.model.fit(x_train, y_train)
+
+        predictions = self.model.predict(x_test)
+        print(f"accuracy: {accuracy_score(y_test, predictions)}")
 
 
     def append_new_data(self, esp32_data):
